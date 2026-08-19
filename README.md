@@ -1,1 +1,1 @@
-# class_projects_2026
+# Web Design Projects
