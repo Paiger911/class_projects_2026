@@ -6,7 +6,7 @@ body{
     background-color:rgb(162, 76, 26);
     width: 950px;
     margin: 20px auto;
-    border: 2px solid 01EB9A;
+    border: 2px solid #01EB9A;
     padding: 10px; 
     border-radius: 20px;
 }
@@ -63,7 +63,7 @@ main img {
     margin: 20px auto;
     width: 350px;
     height: auto;
-    object-fit; cover;
+    object-fit: cover;
 
     border-radius: 20px;
 }
@@ -76,7 +76,7 @@ footer {
 
 img {
             display: block;
-            margin: 20x auto;
+            margin: 20px auto;
             width: 250px;
         }
 
