@@ -1,0 +1,453 @@
+body{background-color: #1c1c1c;
+    color: white;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    
+}
+
+header img {
+    width: 80%;
+}
+
+a {
+color:white;
+text-decoration: none;
+font-size: 20px;
+}
+
+nav a {
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #27485B;
+    border: 2px solid #A67C52;
+    border-radius: 10px;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+nav {
+    text-align: center;
+    margin-top: 0;
+    position: relative;
+    top: -875px;
+    left: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+main {
+    text-align: center;
+    padding: 30px;
+    margin-top: -130px;
+}
+
+main > img {
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid #27485B;
+    padding: 5px;
+}
+
+main p {
+    margin: 20px 100px;
+}
+
+
+
+main h2 {
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+main h3 {
+    color: #C09D89;
+}
+
+section img {
+    width: 70%;
+    border-radius: 10px;
+    border: 2px solid #27485B;
+    padding: 5px;
+    display:block;
+    image-orientation:center;
+}
+
+section p{
+    margin: 10px 30px;
+}
+
+aside img {
+    width: 70%;
+    height: 60%;
+    border-radius: 10px;
+    border: 2px solid #27485B;
+    padding: 5px;
+}
+
+aside p{
+    margin: 10px 30px;
+}
+
+
+.multi_col {
+    display: flex;
+    padding: 0 8%;
+}
+
+.multi_col p {
+    padding: 0 30px;
+    font-size: 18px;
+}
+
+#band_intro {
+    width: 70%;
+    margin: 20px auto;
+    font-size: 18px;
+}
+
+h1 {
+    color: #5FA8d3;
+    font-size: 72px;
+}
+
+#meet_strangers {
+    color: #5FA8D3;
+    font-size: 32px;
+    border-bottom: 2px solid #27485B;
+    padding-bottom: 10px;
+    margin: 40px 100px 25px;
+}
+
+#jess_name {
+    font-size: 32px;
+    color: #C09D89;
+    border: 2px solid #C09D89;
+    border-radius: 10px;
+    width: 20%;
+    margin: 10px auto  20px;
+
+}
+
+#band_tagline {
+    color: #C09D89;
+    font-size: 28px;
+}
+
+.jess_bio {
+    width: 70%;
+    margin: 20px auto;
+    font-size: 18px;
+}
+
+#luke_paige {
+    font-size: 32px;
+    color: #C09D89;
+    border: 2px solid #C09D89;
+    border-radius: 10px;
+    width: 20%;
+    margin: 10px auto;
+}
+
+#sean_name {
+    font-size: 24px;
+    color: #C09D89;
+    border: 2px solid #C09D89;
+    border-radius: 10px;
+    width: 20%;
+    margin: 10px auto  20px;
+}
+
+#dave_name {
+font-size: 24px;
+    color: #C09D89;
+    border: 2px solid #C09D89;
+    border-radius: 10px;
+    width: 20%;
+    margin: 10px auto  20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #C09D89;
+}
+
+#home_tagline {
+    color: white;
+    font-size: 28px;
+    border: 2px solid #5FA8D3;
+    border-radius: 10px;
+    padding: 15px;
+    width: 70%;
+    margin: 20px auto;
+}
+
+#live_video {
+    width: 65%;
+    margin: 40px auto;
+    padding: 10px;
+    border: 2px solid #5FA8d3;
+    border-radius: 10px;
+    background-color: #33251F;
+}
+
+#live_video h2 {
+color: #5FA8D3;
+font-size: 48px;
+}
+
+#live_video p {
+    font-size: 24px;
+    border: 2px solid #C09D89;
+    border-radius: 10px;
+    padding: 10px;
+    width: 60%;
+    margin: 20px auto;
+}
+
+#booking_button {
+    background-color: #27485B;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid #C09D89;
+    border-radius: 10px;
+
+}
+
+#intro {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.live_video section {
+    background-color: #163342;
+    border: 2px solid #5ea8d3;
+    border-radius: 10px; 
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 8px 8px #111111;
+    width: 50%;
+}
+
+.live_video aside {
+    background-color: #163342;
+    border: 2px solid #5ea8d3;
+    border-radius: 10px; 
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 8px 8px #111111;
+    width: 50%;
+}
+
+#chatter_title {
+    margin: 0px 0 15px;
+}
+
+#delicate_title {
+    margin: 0px 0 15px;
+}
+
+
+#restless_card {
+    margin-left: 0px;
+}
+
+#bottom_videos section {
+    margin-left: -17px;
+}
+
+#bottom_videos aside {
+    margin-left: 25px;
+}
+    
+#performances {
+    width: 80%;
+    margin: 10px auto;
+    text-align: left;
+    font-size: 18px;
+    background-color: #163342;
+    border: 2px solid #5ea8d3;
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+
+#performances_title {
+    color: #c09d89;
+    font-size: 30px;
+}
+
+#performances_box {
+    width: 50%;
+    margin: 10px auto 30px;
+    padding: 15px;
+    background-color: #30251f;
+    border: 2px solid #A67C52;
+    border-radius: 10px;
+
+}
+
+.music_row img {
+    width: 65%;
+}
+
+.music_row {
+    width: 80%;
+    margin: 30px auto;
+    padding: 10px;
+    border: 8px solid #8b6f47;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.music_info {
+    background-color: #B68B3a;
+    padding: 15px;
+    border-radius: 50px;
+    width: 50%;
+}
+
+.music_info h2 {
+    margin-bottom: 20px;
+
+}
+
+.music_info p{
+    line-height: 1.6;
+}
+
+.music_player audio {
+    margin-top: -48px;
+}
+
+.music_player {
+    margin-top: -45px;
+}
+
+.booking {
+    background-image: url("../images/booking.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+    min-height: 50%;
+}
+
+.booking-box {
+    background-color: #3b3028;
+    border: #BE9137;
+    width: 22%;
+    padding: 10px;
+    border: 4px solid #BE9137;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 20%;
+}
+
+.booking-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bookingemail {
+    font-size: 45%;
+    text-align: center;
+}
+
+.booking-title {
+    background-color: #BE9137;
+    padding: 8px;
+    border-radius: 30px;
+    width: 70%;
+    margin: 15px auto;
+    color: #3b3028;
+}
+
+.booking-box p {
+    text-align: center;
+}
+
+.bookingname {
+    
+    white-space: nowrap;
+    
+   
+}
+
+.bookingemail a {
+    font-size: 16px;
+}
+
+.morelive {
+    text-align: center;
+    background-color: #163342;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 4px solid #30251f;
+    border-radius: 30px;
+
+}
+
+.morelivevideos {
+    background-color: #30251f;
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 4px solid #5ea8d3;
+    border-radius: 30px;
+    text-align: center;
+}
+
+h1,h2 {
+     font-family: "Bentham", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+/*Tablet Styles */
+
+@media (min-width: 768px) {
+
+}
+
+
+/* Destop Styles */
+@media (min-width: 1024px) {
+
+}
+
+/*Mobile Styles */
+
+@media (max-width: 600px) {
+
+#container {
+    width: 95%;
+    margin: 0 auto;
+
+}
+}
+
+iframe {
+    width: 100%;
+    height: 220px;
+}
