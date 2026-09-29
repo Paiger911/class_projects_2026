@@ -4,13 +4,26 @@ body{background-color: #1c1c1c;
 
 img {
     display: block;
-    margin: 20px auto;
+    margin: 0px auto;
     width: 100%;
     
 }
 
+
+h1,h2 {
+     font-family: "Bentham", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
 header img {
-    width: 80%;
+    width: 75%;
+    border-radius: 0 0  20px 20px;
+    border-left: 4px solid  #27485B;
+    border-right: 4px solid  #27485B;
+    border-bottom: 4px solid #27485B;
+
 }
 
 a {
@@ -20,8 +33,10 @@ font-size: 20px;
 }
 
 nav a {
+    display: block;
     color: white;
     font-size: 18px;
+    width: 125px;
     margin: 0 10px;
     padding: 10px 20px;
     background-color: #27485B;
@@ -37,9 +52,10 @@ a:hover {
 nav {
     text-align: center;
     margin-top: 0;
-    position: relative;
-    top: 0px;
-    left: 30px;
+    background-color: #27485B;
+    padding: 5px;
+    margin: 20px 20px 0 20px;
+    border-radius: 20px;
 }
 
 nav ul {
@@ -55,7 +71,7 @@ nav li {
 main {
     text-align: center;
     padding: 30px;
-    margin-top: -130px;
+    
 }
 
 main > img {
@@ -417,46 +433,7 @@ font-size: 48px;
     text-align: center;
 }
 
-h1,h2 {
-     font-family: "Bentham", serif;
-  font-weight: 400;
-  font-style: normal;
 
-}
-
-/*Tablet Styles */
-
-@media (min-width: 768px) {
-
-    iframe {
-        width: 100%;
-    }
-    .booking-box {
-        width: 45%;
-        margin: 20px auto;
-    }
-
-    nav {
-        top: 0;
-        left: 0;
-        text-align: center;
-        margin-bottom: 30px;
-    }
-}
-
-
-/* Destop Styles */
-@media (min-width: 1100px) {
-
-    nav {
-        top: -875px;
-        left: 30px;
-    }
-    .booking-box {
-        width: 22%;
-        margin-left: 20%;
-    }
-}
 
 /*Mobile Styles */
 
@@ -469,6 +446,28 @@ h1,h2 {
 }
 
 
+nav ul {
+    padding: 0;
+    
+}
+
+nav li {
+    display: block;
+  
+}
+nav li a {
+    display: block;
+    width: 80%
+    
+}
+
+header img {
+    width: 80%;
+    border: 4px solid #5ea8d3;
+    border-radius: 10px;
+   margin-top: 20px;
+}
+
 iframe {
     width: 100%;
     height: 220px;
@@ -480,11 +479,20 @@ iframe {
 
 }
 
+.music_player img {
+    width: 80%;
+
+}
 .music_player {
-    width: 90%;
-    margin: 20px auto;
+    width:100%;
+    margin: 20px auto 20px auto;
+    
 }
 
+.music_player audio {
+    width: 90%;
+    margin-top: 30px;
+}
 .music_info {
     width: 90%;
     margin: 20px auto;
@@ -520,17 +528,46 @@ iframe {
 .bookingemail a {
     font-size: 14px;
 }
-nav {
-    top: 0;
-    left: 0;
-    text-align: center;
-    margin-bottom: 50px;
-}
 
-nav li {
-    margin: 5px;
-}
-
+.live_video {
+    display: block;
+    width: 90%;
+    margin: 20px auto;
 
 }
 
+}
+
+
+/*Tablet Styles */
+
+@media (min-width: 768px) {
+
+    iframe {
+        width: 100%;
+    }
+    .booking-box {
+        width: 45%;
+        margin: 20px auto;
+    }
+
+    nav {
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+}
+
+
+/* Destop Styles */
+@media (min-width: 1100px) {
+
+    nav {
+        top: 0;
+        left: 30px;
+    }
+    .booking-box {
+        width: 22%;
+        margin-left: 20%;
+    }
+}
