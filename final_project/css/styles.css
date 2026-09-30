@@ -502,8 +502,8 @@ iframe {
 }
 
 .multi_col {
-    display: block;
-    padding: 0;
+   display: block;
+   padding: 0;
 
 }
 
@@ -516,16 +516,28 @@ iframe {
     margin: 20px auto;
 }
 
+.booking-box p{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .bookingname {
     white-space: normal;
     font-size: 14px;
 }
 
 .bookingemail {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .bookingemail a {
+    font-size: 12px;
+}
+
+#productioninfo {
+    width: 90%;
+    margin: 20px auto;
     font-size: 14px;
 }
 
@@ -535,6 +547,26 @@ iframe {
     margin: 20px auto;
 
 }
+
+#bottom-videos {
+    width: 90%;
+    margin: 20px auto;
+    padding: 0;
+
+}
+#attention_card {
+    width: 80%;
+  
+}
+ #restless_card {
+    width: 80%;
+   
+    
+ }
+
+ #bottom_videos aside {
+    margin-left: -17px;
+ }
 
 }
 
